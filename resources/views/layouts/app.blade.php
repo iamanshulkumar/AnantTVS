@@ -1,5 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}"
+    data-layout="vertical" 
+    data-topbar="light" 
+    data-sidebar-size="lg" 
+    data-sidebar="light" 
+    data-sidebar-image="none" 
+    data-preloader="disable" 
+    data-sidebar-visibility="show" 
+    data-layout-style="default" 
+    data-bs-theme="light" 
+    data-layout-width="fluid" 
+    data-layout-position="fixed"
+>
 
 <head>
     <meta charset="utf-8">
